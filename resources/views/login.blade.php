@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Login</title>
+  <!-- Disini bikin <link href="{{ asset('css/app.css')}}" rel="stylesheet"> -->
+  <!-- Sebelumnya Jangan lupa di cmd bikin npm run watch ya -->
 </head>
 <body>
 <form>
