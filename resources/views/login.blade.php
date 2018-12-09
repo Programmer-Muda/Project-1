@@ -2,8 +2,13 @@
 <html>
 <head>
   <title>Login</title>
+<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css')}}">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+=======
+  <!-- Disini bikin <link href="{{ asset('css/app.css')}}" rel="stylesheet"> -->
+  <!-- Sebelumnya Jangan lupa di cmd bikin npm run watch ya -->
+>>>>>>> 87efed14a70367ace09b5772068d1183a4c4883b
 </head>
 <body>
 <form>
