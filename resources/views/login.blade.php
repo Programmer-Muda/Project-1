@@ -2,16 +2,12 @@
 <html>
 <head>
   <title>Login</title>
-<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css')}}">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
-=======
-  <!-- Disini bikin <link href="{{ asset('css/app.css')}}" rel="stylesheet"> -->
   <!-- Sebelumnya Jangan lupa di cmd bikin npm run watch ya -->
->>>>>>> 87efed14a70367ace09b5772068d1183a4c4883b
 </head>
 <body>
 <form>
+<div class="topbar">Login</div>
 <div class="tabel">
   <div class="form-group">
     <label for="email1">Email address</label>
@@ -21,8 +17,15 @@
     <label for="Password1">Password</label>
     <input type="password" class="form-control" id="Password1" placeholder="Password">
   </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="Check" required>
+    <label class="form-check-label" for="Check">Check me</label>
+  </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </div>
 </form>
+<div class="registered">
+<p>Not registered? <a href="">sign up now</a></p>
+</div>
 </body>
 </html>
