@@ -21,8 +21,4 @@ Route::get('/login', function() {
 
 Route::get('/daftar', function(){
     return view('register');
-})
-
-Route::get('/halamanDepan', function(){
-    return view('halamanDepan');
-})
+});
