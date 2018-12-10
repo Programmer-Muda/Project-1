@@ -10466,6 +10466,45 @@ a.text-dark:focus {
   }
 }
 
+.navigasi {
+  background: none;
+}
+
+.navigasi a.navbar-brand {
+  color: white;
+}
+
+.navigasi div ul li a {
+  color: white;
+}
+
+.navigasi div div div a.btn {
+  color: white;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 5px 0 #6574cd;
+          box-shadow: 0 5px 0 #6574cd;
+}
+
+.navigasi div div div a.btn #khusus {
+  border-right: 1px solid #ffe;
+}
+
+.slet {
+  margin-top: -47px;
+  background: url("/storage/image/mackbook.jpg");
+  height: 564px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slet h1 {
+  margin: auto;
+  color: white;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
