@@ -10473,12 +10473,14 @@ a.text-dark:focus {
 }
 
 form {
-  position: absolute;
+  position: relative;
   top: 110px;
-  left: 430px;
-  width: 30%;
+  text-align: left;
+  width: 400px;
   height: 200;
   border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 3px 0px;
+          box-shadow: 0px 0px 3px 0px;
   border-radius: 10px;
 }
 
@@ -10496,8 +10498,7 @@ form {
 }
 
 .registered p {
-  position: absolute;
-  top: 440px;
-  left: 540px;
+  position: relative;
+  top: 120px;
 }
 

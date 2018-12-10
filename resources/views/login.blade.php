@@ -6,6 +6,7 @@
   <!-- Sebelumnya Jangan lupa di cmd bikin npm run watch ya -->
 </head>
 <body>
+<center>
 <form>
 <div class="topbar">Login</div>
 <div class="tabel">
@@ -25,7 +26,8 @@
 </div>
 </form>
 <div class="registered">
-<p>Not registered? <a href="">sign up now</a></p>
+<p>Not registered? <a href="/register">sign up now</a></p>
 </div>
+</center>
 </body>
 </html>
