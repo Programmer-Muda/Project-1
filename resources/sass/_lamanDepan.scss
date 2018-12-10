@@ -1,6 +1,41 @@
 // Kelas front khusus halaman depan
-.front {
-    .navbar {
-        background: rgba(0,0,0,0);
+.navigasi {
+    background : none;
+    a.navbar-brand{
+        color: white;
+    }
+    div{
+        ul {
+            li {
+                a {
+                    color: white;
+                }
+            }
+        }
+        div{
+            div{
+                a.btn{
+                    color: white;
+                    text-transform: uppercase;
+                    box-shadow: 0 5px 0 $indigo;
+                    #khusus {
+                        border-right: 1px solid #ffe
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slet{
+    margin-top: -47px;
+    background: url('/storage/image/mackbook.jpg');
+    height: 564px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display : flex;
+    h1{
+        margin: auto;
+        color: white;
     }
 }
