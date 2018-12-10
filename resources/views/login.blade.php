@@ -12,11 +12,11 @@
 <div class="tabel">
   <div class="form-group">
     <label for="email1">Email address</label>
-    <input type="email" class="form-control" id="email1" placeholder="Enter email">
+    <input type="email" class="form-control" id="email1" placeholder="Enter email" required>
   </div>
   <div class="form-group">
     <label for="Password1">Password</label>
-    <input type="password" class="form-control" id="Password1" placeholder="Password">
+    <input type="password" class="form-control" id="Password1" placeholder="Password" required>
   </div>
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="Check" required>
