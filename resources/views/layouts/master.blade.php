@@ -2,31 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title')</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link href="{{ asset('css/app.css')}}" rel="stylesheet">
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style type="text/css">
-        
+        /* GLOBAL STYLES
+        -------------------------------------------------- */
+        /* Padding below the footer and lighter body text */
+
         body {
-          padding-top: 3rem;
+          padding-top : 0;
           padding-bottom: 3rem;
           color: #5a5a5a;
         }
 
+
+        /* CUSTOMIZE THE CAROUSEL
+        -------------------------------------------------- */
+
+        /* Carousel base class */
         .carousel {
           margin-bottom: 4rem;
         }
-
+        /* Since positioning the image, we need to help out the caption */
         .carousel-caption {
           bottom: 3rem;
           z-index: 10;
         }
 
+        /* Declare heights because of positioning of img element */
         .carousel-item {
           height: 32rem;
           background-color: #777;
@@ -39,6 +50,11 @@
           height: 32rem;
         }
 
+
+        /* MARKETING CONTENT
+        -------------------------------------------------- */
+
+        /* Center align the text within the three columns below the carousel */
         .marketing .col-lg-4 {
           margin-bottom: 1.5rem;
           text-align: center;
@@ -51,17 +67,27 @@
           margin-left: .75rem;
         }
 
+
+        /* Featurettes
+        ------------------------- */
+
         .featurette-divider {
-          margin: 5rem 0;
+          margin: 5rem 0; /* Space out the Bootstrap <hr> more */
         }
 
+        /* Thin out the marketing headings */
         .featurette-heading {
           font-weight: 300;
           line-height: 1;
           letter-spacing: -.05rem;
         }
 
+
+        /* RESPONSIVE CSS
+        -------------------------------------------------- */
+
         @media (min-width: 40em) {
+          /* Bump up size of carousel content */
           .carousel-caption p {
             margin-bottom: 1.25rem;
             font-size: 1.25rem;
@@ -79,11 +105,10 @@
           }
         }
 
-    </style>
-  </head>
+    </style>  </head>
   <body>
+    <header>
     @include('layouts.header')
     @yield('main')
-    <script src="js/app.js"></script>
   </body>
 </html>
