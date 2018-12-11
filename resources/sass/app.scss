@@ -17,6 +17,7 @@
 
 //Bagi front end, bikin css disini, sintaksnya sama aja kek css, yg diatas jangan edit ya :D
 // Style Login
+<<<<<<< HEAD
 body{
   box-sizing: border-box;
   overflow: hidden;
@@ -52,6 +53,19 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
+=======
+
+.tabel{
+  margin: 15px;
+}
+.topbar{
+  border-radius: 10px 10px 0px 0px;
+  font-size: 25px;
+  text-align: center;
+  position: static;
+  background-color: black;
+  color: white;
+>>>>>>> 78aa938160e203df039c6db0e9b168c72f2dc9cb
 }
 .sosmed{
   margin-top: 10px;

@@ -1,8 +1,17 @@
+//impor font khusus
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 // Kelas front khusus halaman depan
 .navigasi {
     background : none;
+    margin: 0;
+    padding: 0;
     a.navbar-brand{
         color: white;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 2em;
+        margin: 0%;
+        padding: 0 2%;
     }
     div{
         ul {
@@ -13,13 +22,14 @@
             }
         }
         div{
+            padding : 0 2%;
             div{
                 a.btn{
                     color: white;
                     text-transform: uppercase;
                     box-shadow: 0 5px 0 $indigo;
                     #khusus {
-                        border-right: 1px solid #ffe
+                        border-left: 1px solid #ffe
                     }
                 }
             }
@@ -27,8 +37,13 @@
     }
 }
 
+header {
+    margin: 0;
+    padding: 0;
+}
+
 .slet{
-    margin-top: -47px;
+    margin-top: -75px;
     background: url('/storage/image/mackbook.jpg');
     height: 564px;
     background-size: cover;
@@ -38,4 +53,9 @@
         margin: auto;
         color: white;
     }
+}
+
+main{
+    margin: 0;
+    padding: 0;
 }

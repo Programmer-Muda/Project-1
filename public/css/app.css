@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);/*!
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);/*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10468,14 +10468,24 @@ a.text-dark:focus {
 
 .navigasi {
   background: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navigasi a.navbar-brand {
   color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  margin: 0%;
+  padding: 0 2%;
 }
 
 .navigasi div ul li a {
   color: white;
+}
+
+.navigasi div div {
+  padding: 0 2%;
 }
 
 .navigasi div div div a.btn {
@@ -10486,11 +10496,16 @@ a.text-dark:focus {
 }
 
 .navigasi div div div a.btn #khusus {
-  border-right: 1px solid #ffe;
+  border-left: 1px solid #ffe;
+}
+
+header {
+  margin: 0;
+  padding: 0;
 }
 
 .slet {
-  margin-top: -47px;
+  margin-top: -75px;
   background: url("/storage/image/mackbook.jpg");
   height: 564px;
   background-size: cover;
@@ -10505,12 +10520,18 @@ a.text-dark:focus {
   color: white;
 }
 
+main {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+<<<<<<< HEAD
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10520,6 +10541,10 @@ body {
 .img {
   position: absolute;
   float: left;
+=======
+.tabel {
+  margin: 15px;
+>>>>>>> 78aa938160e203df039c6db0e9b168c72f2dc9cb
 }
 
 .img img {
