@@ -10531,7 +10531,6 @@ main {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-<<<<<<< HEAD
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10541,10 +10540,6 @@ body {
 .img {
   position: absolute;
   float: left;
-=======
-.tabel {
-  margin: 15px;
->>>>>>> 78aa938160e203df039c6db0e9b168c72f2dc9cb
 }
 
 .img img {
@@ -10584,5 +10579,10 @@ body {
   margin-top: 10px;
   padding: 10px;
   border-top: 1px solid lightgrey;
+}
+
+.sosmed img {
+  height: 50px;
+  border-radius: 3px;
 }
 

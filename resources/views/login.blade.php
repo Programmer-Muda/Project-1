@@ -21,9 +21,12 @@
       <label class="custom-control-label" for="Check">Check This</label>
     </div>
     <button type="submit" class="btn btn-primary">Login Now</button>
+    <p>Not registered? <a href="/register">sign up now</a></p>
   </form>
   <div class="sosmed">
     <h5>Login With :</h5>
+    <img src="{{ asset('img/fb.png')}}" alt="">|
+    <img src="{{ asset('img/gmail.png')}}" alt="">
   </div>
 </div>
 </body>
