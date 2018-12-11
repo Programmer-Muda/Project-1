@@ -10477,11 +10477,15 @@ a.text-dark:focus {
   font-family: 'Permanent Marker', cursive;
   font-size: 2em;
   margin: 0%;
-  padding: 0%;
+  padding: 0 2%;
 }
 
 .navigasi div ul li a {
   color: white;
+}
+
+.navigasi div div {
+  padding: 0 2%;
 }
 
 .navigasi div div div a.btn {
@@ -10495,8 +10499,13 @@ a.text-dark:focus {
   border-left: 1px solid #ffe;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+}
+
 .slet {
-  margin-top: -50px;
+  margin-top: -75px;
   background: url("/storage/image/mackbook.jpg");
   height: 564px;
   background-size: cover;
