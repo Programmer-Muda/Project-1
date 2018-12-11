@@ -17,28 +17,44 @@
 
 //Bagi front end, bikin css disini, sintaksnya sama aja kek css, yg diatas jangan edit ya :D
 // Style Login
-form{
-  position: relative;
-  top: 110px;
-  text-align: left;
-  width: 400px;
-  height: 200;
-  border: 1px solid black;
-  box-shadow: 0px 0px 3px 0px;
-  border-radius: 10px;
+body{
+  box-sizing: border-box;
+  overflow: hidden;
 }
-.tabel{
-  margin: 15px;
+.img{
+  position: absolute;
+  float: left;
 }
-.topbar{
-  border-radius: 10px 10px 0px 0px;
-  font-size: 25px;
+.img img{
+  width: 1366px;
+  height: 657px;
+}
+.sidebar{
+  background-color: aliceblue;
+  opacity: 0.9;
+  width: 331px;
+  height: 657px;
+  padding: 10px;
   text-align: center;
-  position: static;
-  background-color: black;
-  color: white;
-}
-.registered p{
   position: relative;
-  top: 120px;
+  left: 1035px;
+  border-left: 1px solid grey;
+}
+.sidebar .topbar{ 
+  padding: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+.sidebar input{
+  padding: 4px;
+  width: 300px;
+}
+.sidebar .check{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.sosmed{
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid lightgrey;
 }
